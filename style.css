@@ -1,0 +1,279 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.background-top{
+  width: 100%;
+  height: 700px;
+  background-image: url(clouds.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+.wrapper{
+  margin: 0 auto 0 auto;
+  width: 950px;
+
+}
+header{
+  width: 100%;
+  height:75px;
+
+}
+h1{
+  text-transform: uppercase;
+  font-family: montserrat;
+  color: #155087;
+  font-size: 40px;
+  display:block;
+  line-height: 75px;
+  float: left;
+
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  float: right;
+  line-height: 75px;
+
+}
+ul li{
+  list-style: none;
+
+}
+ul li a{
+  text-decoration: none;
+  color:#3e4f57;
+  font-family: montserrat;
+  display: block;
+  padding: 0 15px;
+  font-size: 14px;
+  font-weight: 100;
+  transition: all 1000ms;
+}
+.home{
+  font-weight: bold;
+  color: #00060e;
+}
+.contact{
+  padding: 7.5px 15px;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 0px;
+  border-spacing: 20px;
+  display: inline;
+  margin-left: 10px;
+  transition: all 300ms;
+}
+.see{
+  height:175px;
+  margin-bottom:  auto;
+  margin-top: 200px;
+  width: 100%;
+  text-align: center;
+}
+h2{
+  font-size: 37px;
+  font-family: Bahnschrift;
+
+}
+h3{
+  font-family: Bahnschrift;
+  font-size: 17px;
+  font-weight: 200;
+}
+.seemore{
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(90deg,#2b65af ,#0689e3);
+  padding:  10px 40px 10px 40px;
+  font-family: montserrat;
+  border-radius: 30px;
+  line-height: 100px;
+  font-size: 12px;
+  font-weight: 100;
+  transition: all 300ms;
+}
+.seemore:hover{
+padding: 12px 42px 12px 42px;
+border-radius: 30px;
+font-size: 13px;
+box-shadow: 10px 10px 50px 1px black;
+}
+ul li a:hover{
+  color: black;
+}
+.contact:hover{
+  border-radius: 25px;
+}
+.scroll{
+  margin-top: 175px;
+  width: 100%;
+  text-align: center;
+}
+h4{
+  font-family: montserrat;
+  font-size: 10px;
+  padding-top: 10px;
+}
+i{
+  color: white;
+  font-size: 32px;
+  transform: scaleX(0.75);
+}
+.left{
+  height:325px;
+  width:50%;
+  background-image: url(cat.jpg);
+  background-size: cover;
+  text-align: left;
+  float: left;
+
+}
+.right{
+  height:325px;
+  width:50%;
+  background-image: url(concrete.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  float: right;
+}
+h5{
+  color:white;
+  font-family: montserrat;
+  font-size: 30px;
+  padding-left: 200px;
+  padding-top: 75px;
+  padding-right: 125px;
+}
+.apfel{
+  color: white;
+  font-family: Bahnschrift;
+  font-size: 14px;
+  font-weight: 100;
+  padding-left: 200px;
+  padding-right: 125px;
+  padding-top: 10px;
+}
+.seemore2{
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(90deg,#2b65af ,#0689e3);
+  padding:  10px 40px 10px 40px;
+  font-family: montserrat;
+  border-radius: 30px;
+  line-height: 75px;
+  font-size: 12px;
+  font-weight: 100;
+  transition: all 300ms;
+  margin-left: 325px;
+  margin-bottom: 20px;
+
+}
+.seemore2:hover{
+padding: 12px 42px 12px 42px;
+border-radius: 30px;
+font-size: 13px;
+box-shadow: 0px 0px 20px 2px black;
+}
+.content{
+  width: 100%;
+  height:625px;
+
+  margin-top: 325px;
+}
+.wrapper2{
+  width: 950px;
+  margin: 0px auto;
+}
+.oben{
+  height:150px;
+  width: 100%;
+
+  text-align: center;
+  line-height: 148.5px;
+}
+.mitte1{
+  text-align: left;
+  height: 280px;
+  width: 50%;
+  float: left;
+
+}
+.mitte2{
+  height: 280px;
+  text-align: left;
+  width: 50%;
+  float: left;
+}
+.unten{
+  width: 100%;
+  height:120px;
+  text-align: center;
+}
+h6{
+
+  padding-bottom: 15px;
+  font-family: montserrat;
+  font-size: 22px;
+  text-align: left;
+}
+.what{
+  color:#969696;
+  padding-bottom: 10px;
+  font-family: Bahnschrift;
+  font-size: 14px;
+  padding-right: 100px;
+}
+.seemore3{
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(90deg,#2b65af ,#0689e3);
+  padding:  10px 40px 10px 40px;
+  font-family: montserrat;
+  border-radius: 30px;
+  line-height: 125px;
+  font-size: 12px;
+  font-weight: 100;
+  transition: all 300ms;
+
+}
+.seemore3:hover{
+padding: 12px 42px 12px 42px;
+border-radius: 30px;
+font-size: 13px;
+box-shadow: 10px 10px 50px 1px black;
+
+}
+.birne{
+  width: 100%;
+  height: 625px;
+
+  background-image: url(mountain2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+
+}
+.traube{
+  width: 100%;
+  height:175px;
+
+text-align: center;
+}
+.birne1{
+  color:white;
+  font-family: montserrat;
+  font-size: 30px;
+}
+.contain{
+  width: 100%;
+  height: 1000px;
+  background-color: red;
+}
+.containtext{
+  width: 100%;
+  height: 150px;
+  text-align: center;
+}
